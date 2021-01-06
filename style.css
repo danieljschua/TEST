@@ -1,0 +1,99 @@
+/* CSS file for index.html of TJOSO */
+
+/* Margin Reset */
+*,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+/* Topnav bar */
+.topnav {
+	overflow: hidden;
+	background-color: #032f38;
+}
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	padding: 12px 20px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a.current {
+	background-color: #4caf50;
+	color: white;
+}
+.topnav-right {
+	float: right;
+}
+
+/* General */
+body {
+	background-color: #61788c;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+p {
+	font-family: 'Bitter', serif;
+	font-weight: bold;
+	color: #ddd;
+}
+
+/* Classes */
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sections {
+	border: 2px solid black;
+}
+
+.margin {
+	margin: 20px;
+}
+.padding {
+	padding: 5px;
+}
+
+.link {
+	font: normal normal normal 30px/1 'Jura', sans-serif;
+	color: #212121;
+	display: block;
+	margin-bottom: 20px;
+}
+a:hover {
+	color: #099c66;
+}
+
+.dark-text {
+	color: #333;
+}
+
+/* ID's */
+#heading {
+	font: normal normal bold 50px/1 'Jura', sans-serif;
+	color: #192e40;
+	padding: 5px;
+	background-color: #ddd;
+	text-align: center;
+}
+
+#welcome {
+	font: normal normal normal 30px/1 'Jura', sans-serif;
+	color: white;
+}
+
+#divider {
+	border: 5px solid aliceblue;
+}
